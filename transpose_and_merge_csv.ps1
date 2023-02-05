@@ -34,9 +34,9 @@ function transposeCsv($csvFile,$appendFile) {
   for ($i = 0; $i -lt $csv[0].Count; $i++) {
     $row = New-Object System.Collections.ArrayList
     for ($y = 0; $y -lt $csv.Count; $y++) {
-      $row.Add($csv[$y][$i])
+      $row.Add($csv[$y][$i]) > $null
     }
-    $array.Add($row)
+    $array.Add($row) > $null
   }
 
   # 結果を出力ファイルに追記
