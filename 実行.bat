@@ -1,0 +1,1 @@
+start "" powershell -WindowStyle Hidden -NoProfile -ExecutionPolicy Unrestricted .\transpose_and_merge_csv.ps1
